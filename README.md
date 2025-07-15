@@ -1,16 +1,49 @@
-# magic_8_ball
+# 🎱 Magic 8-Ball Flutter App
+A playful mobile app built with Flutter that mimics the classic Magic 8-Ball experience. Tap the screen and get random answers to your burning questions, one image at a time.
 
-A new Flutter project.
+## 🚀 Features
+Minimalist UI with bold typography and vibrant blue tones
 
-## Getting Started
+Tap-to-refresh logic with a randomized Magic 8-Ball response
 
-This project is a starting point for a Flutter application.
+Dynamically loaded images based on randomized output
 
-A few resources to get you started if this is your first Flutter project:
+Stateful widget implementation for real-time interactivity
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📦 Installation
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/your-username/magic-8-ball-flutter.git
+cd magic-8-ball-flutter
+```
+2. Ensure Flutter is installed and run:
+
+```bash
+flutter pub get
+flutter run
+```
+## 🛠️ Requirements
+•Flutter SDK
+•Dart
+•Image assets in images/ folder named:
+    ∙ball1.png
+    ∙ball2.png
+    ∙ball3.png
+    ∙ball4.png
+    ∙ball5.png
+
+## 📂 Project Structure
+```
+lib/
+├── main.dart          # Core app logic with widgets
+images/
+├── ball1.png          # Magic 8-Ball response images
+```
+## ✨ How It Works
+•When the app loads, it displays a centered Magic 8-Ball image (ball1.png by default).
+•Each time the user taps the ball, the app randomly selects and displays one of five images.
+•Uses StatefulWidget to manage dynamic UI state.
+
+## 💡 Inspiration
+Inspired by classic fortune-telling toys, this app was built to experiment with Flutter widgets, state management, and asset handling.
